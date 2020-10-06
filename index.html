@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="download.jpg" class="align-self-center mr-3" alt="Pizza">
+    <div class="words">
+        <h2>ORDER YOUR PIZZA HERE!</h2>
+        <p> </p>
+        <P>Plaese enter your infromation below and make your order!</P>
+        
+    </div>
+
+    <div class="container">
+       <!-- HERE ARE MY FORMS FOR THE PACGE -->
+        <form>
+            <div class="row">
+                <div class="col">
+                  <input id="names"type="text" class="form-control" placeholder="First Last ">
+                </div>
+                <div class="col">
+                  <input id="phoneNum" type="text" class="form-control" placeholder="Phone">
+                </div>
+              </div>
+        <!-- THE DROP DOWN BOXES ARE HERE vv -->
+           
+            <div class="form-group">
+            <label for="exampleInputPassword1">Pick Your Pizza</label>
+            <select class="form-control" id="pizza">
+                <option>Pizza</option>
+            </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Dont See Your Pizza? Enter it here.</label>
+                <textarea class="form-control" id="textArea" rows="1"></textarea>
+                <button type="button" class="btn btn-primary" id="doubleClick">click here to add</button>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">How Many Pizza?</label>
+                <select class="form-control" id="pizzaNum">
+                    <option>0</option>
+                </select>
+                </div>
+        <!-- THE BUTTON IS HERE  -->
+            <button type="button" class="btn btn-primary" id="order">Submit</button>
+        </form>
+      </div>
+      
+
+     
+</body>
+</html>
